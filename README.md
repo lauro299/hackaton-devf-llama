@@ -1,5 +1,7 @@
 # hackaton-devf-llama
 
+**English** · [Español](README.es.md)
+
 **A structure-aware RAG agent over a scanned Mexican public-school textbook, running entirely on local models.**
 
 This project turns 321 scanned pages of *Colección Ximhai. Nuestro libro de proyectos, Primer grado* (SEP, 2023),
