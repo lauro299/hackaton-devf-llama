@@ -1,0 +1,41 @@
+# --- Copyrighted source material (SEP) -- never commit, see README ---
+resources/
+*.jpg
+*.jpeg
+*.png
+*.pdf
+resultado.md
+data/embedder_finetune_*.jsonl
+
+# --- Generated artifacts (download from the GitHub Release / HF Hub) ---
+*.db
+*.db-journal
+*.db.bak
+models/
+*.safetensors
+*.bin
+*.gguf
+*.tflite
+*.onnx
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Hugging Face / torch caches ---
+.cache/
+wandb/
+runs/
+checkpoints/
+
+# --- Editors / OS ---
+.idea/
+.vscode/
+.DS_Store

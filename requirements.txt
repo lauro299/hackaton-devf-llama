@@ -1,0 +1,11 @@
+# Install PyTorch FIRST, matching your GPU (see README):
+# pick the ROCm (AMD) or CUDA (NVIDIA) build at https://pytorch.org/get-started/locally/
+# Tested with torch 2.12 (ROCm 7.14) on an AMD Radeon RX 7900 XTX, Python 3.14.
+transformers==5.16.1
+accelerate==1.14.0
+sentence-transformers==6.0.1
+datasets==5.0.1
+huggingface_hub==1.30.0
+sqlite-vec==0.1.9
+numpy==2.5.2
+pillow==12.3.0
